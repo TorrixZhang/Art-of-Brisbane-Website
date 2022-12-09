@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+	box-sizing: border-box;
+}
+
+
+
+
+
+li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+	background: white;
+	
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	margin: 0;
+	padding: 0;
+}
+
+
+/*topleft images*/
+.topleft img {
+    margin-top: 0.7%;
+    margin-bottom: 0.4%;
+    margin-left: 4.55%;
+    margin-right:-4.815% ;
+    width: 80px;
+    height:80px;
+}
+
+/*other images*/
+.otherimages img{
+    margin-top: 1.7%;
+    margin-bottom: 0.4%;
+    margin-left: 4.55%;
+    margin-right:-4.815% ;
+    width: 90vw;
+    height:80vh;
+}
+
+/*navigation button */
+#navigation {
+    padding: 0.5em 0.5em;
+    margin-right: 2%;
+    margin-top:0.8%;
+    float: right;
+    border-radius: 18px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#project-name {
+    float: left;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(5%, 0%);
+    padding: 3.5em 5em;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(6,40,61);
+    margin: auto;
+    width: 90vw;
+	height: 70vh;
+}
+
+
+
+
+#main-menu ul {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 0;
+}
+
+#main-menu li {
+    padding: 0.75em 0.5em;
+}
+
+#main-menu a {
+    display: block;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#main-menu a:hover {
+    background-color: rgb(223, 246, 255);
+    border-radius: 10px;
+}
+#main-menu a:active {
+    background: rgb(71, 181, 255);
+}
+
+
+#page-header {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top:2%;
+    margin-bottom: 1%;
+
+    text-align: left;
+    margin-left: 4.55%;
+	font-size: 1em;
+	color:black;
+    
+}
+#page-header-scan{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top:1%;
+    margin-bottom: 1%;
+
+    text-align: left;
+    margin-left: 4.55%;
+	font-size: 1em;
+	color:black;
+}
+
+.footer-area{
+    margin-top: 50%;
+    transform: translate(0, 16%);
+    padding: 3.5em 3.5em;
+     
+    color: white;
+    background-color: rgb(6,40,61);
+    margin: auto;
+    width: 100%;
+	height: 10vh;
+}
+
+.footer-area img{
+    padding: 0%;
+    margin-left: 85%;
+    margin-right: -84%;
+    width: 40px;
+    height:40px;
+}
+
+
+#map {
+	margin: auto;
+	width: 90vw;
+	height: 90vh;
+	/* Uses viewport (vw & vh) units: https://css-tricks.com/fun-viewport-units */
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.5) 0 5px 10px;
+}
+
+
+/*pagination*/
+.page-switch {
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.page-switch li {
+	display: inline;
+}
+.page-switch a, .page-switch span {
+	padding:5px 8px;
+	color:#333d46;
+	background:#fff;
+	text-align:center;
+	border:1px solid #ccdbe4;
+	text-decoration:none;
+	font-size:12px;
+	margin-right:2px;
+}
+.page-switch a:hover {
+	color:#fff;
+	background:#5fbeaa;
+	border:1px solid #5fbeaa;
+}
+.page-switch li.active span {
+	color:#fff;
+	background:#5fbeaa;
+	border:1px solid #5fbeaa;
+}
+
+
+
+
+
+
+
+/* camera */
+#video {
+    transform: rotateY(180deg);
+    width: "600px"; 
+    height:"600px"; 
+   
+}
+
+#canvas {
+    width:"600px";
+    height:"600px";
+    
+}
+
+.cameraButton{
+    text-align: center;
+
+}
+
+.bg-content{
+    text-align: center;
+}
+
+button{
+
+ 
+background: rgb(37, 109, 133); 
+
+border: 1px solid rgb(37, 109, 133);
+
+border-radius: 10px; 
+ 
+color: rgb(255, 255, 255);
+padding: 16px 32px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+ 
+transition-duration: 0.5s;
+cursor: pointer;
+ 
+      
+}
+
+button:hover {
+    background-color: rgb(41, 89, 120);
+    border-color: rgb(41, 89, 120);
+    color: rgb(0, 0, 0);
+}
+
+#aboutus img{
+    margin-left: 4.55%;
+    margin-right: 4.55%;
+}
